@@ -65,8 +65,7 @@ python download.py
 ### Starting the Server
 
 ```bash
-cd src
-python -m uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+python -m uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 The API will be available at `http://localhost:8000`
